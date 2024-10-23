@@ -15,7 +15,7 @@ placeholder = ""
 word_length = len(chosen_word)
 for position in range(word_length):
     placeholder += "_"
-print("Word to guess: " + placeholder)
+print("Word to guess: (" + str(word_length) + " characters) " + placeholder)
 
 game_over = False
 correct_letters = []
